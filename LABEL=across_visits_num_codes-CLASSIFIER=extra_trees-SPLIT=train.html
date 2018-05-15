@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SPLIT=train-CLASSIFIER=logistic_regression.html</title>
+  <title>LABEL=across_visits_num_codes-CLASSIFIER=extra_trees-SPLIT=train.html</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -49,20 +49,25 @@
     <div class="col-sm-1 sidenav">
     </div>
     <div class="col-sm-10 text-left"> 
-      <h3 align='center'> SPLIT = train </h3>
+      <h3 align='center'> LABEL = across_visits_num_codes </h3>
 <table class="table" width="90%" border="1">
-<tr><td class="col-md-2"><a href="SPLIT=train-CLASSIFIER=logistic_regression.html">train</a></td><td class="col-md-2"><a href="SPLIT=valid-CLASSIFIER=logistic_regression.html">valid</a></td><td class="col-md-2"><a href="SPLIT=test-CLASSIFIER=logistic_regression.html">test</a></td></tr>
+<tr><td class="col-md-2"><a href="LABEL=across_visits_num_codes-CLASSIFIER=extra_trees-SPLIT=train.html">across_visits_num_codes</a></td><td class="col-md-2"><a href="LABEL=across_visits_num_dmeds-CLASSIFIER=extra_trees-SPLIT=train.html">across_visits_num_dmeds</a></td><td class="col-md-2"><a href="#"></a></td></tr>
 </table>
 
-<h3 align='center'> CLASSIFIER = logistic_regression </h3>
+<h3 align='center'> CLASSIFIER = extra_trees </h3>
 <table class="table" width="90%" border="1">
-<tr><td class="col-md-2"><a href="SPLIT=train-CLASSIFIER=extra_trees.html">extra_trees</a></td><td class="col-md-2"><a href="SPLIT=train-CLASSIFIER=logistic_regression.html">logistic_regression</a></td><td class="col-md-2"><a href="#"></a></td></tr>
+<tr><td class="col-md-2"><a href="LABEL=across_visits_num_codes-CLASSIFIER=extra_trees-SPLIT=train.html">extra_trees</a></td><td class="col-md-2"><a href="LABEL=across_visits_num_codes-CLASSIFIER=logistic_regression-SPLIT=train.html">logistic_regression</a></td><td class="col-md-2"><a href="#"></a></td></tr>
+</table>
+
+<h3 align='center'> SPLIT = train </h3>
+<table class="table" width="90%" border="1">
+<tr><td class="col-md-2"><a href="LABEL=across_visits_num_codes-CLASSIFIER=extra_trees-SPLIT=train.html">train</a></td><td class="col-md-2"><a href="LABEL=across_visits_num_codes-CLASSIFIER=extra_trees-SPLIT=valid.html">valid</a></td><td class="col-md-2"><a href="LABEL=across_visits_num_codes-CLASSIFIER=extra_trees-SPLIT=test.html">test</a></td></tr>
 </table>
 
 <pre style="background-color:transparent;">
-SRCFILE: AUC_across_visits-classifier=logistic_regression-split=train.png
+SRCFILE: label=across_visits_num_codes-metric=auc-classifier=extra_trees-split=train.png
 </pre><nbsp;>
-<img src="AUC_across_visits-classifier=logistic_regression-split=train.png" class="img-fluid center-block" width="100%" alt="Responsive image">
+<img src="label=across_visits_num_codes-metric=auc-classifier=extra_trees-split=train.png" class="img-fluid center-block" width="100%" alt="Responsive image">
     <nbsp;>
     </div>
     <div class="col-sm-1 sidenav">
