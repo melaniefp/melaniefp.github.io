@@ -3,11 +3,12 @@
 
 <h2>Evaluation at each drug initialization</h2>
 
+<h3>TRAIN/VALID/TEST = 80/10/10</h3>
+
 <a href="INPUT_NAMES=X-DRUG=amitriptyline-PENALTY=l1.html">Grid search for regularization term</a>
 <br>
 <br>
 
-<h3>TRAIN/VALID/TEST = 80/10/10</h3>
 <a href="LABEL=across_ct_codes_same_classifier-SPLIT=train-CLASSIFIER=logistic_regression.html">Stratified AUC for same classifier</a>
 <br>
 <br>
@@ -17,17 +18,17 @@
 <br>
 
 <h3>TRAIN/VALID/TEST = 60/20/20</h3>
-<a href="LABEL=across_ct_codes_same_classifier-SPLIT=train-CLASSIFIER=logistic_regression.html">Stratified AUC for same classifier</a>
+<a href="LABEL=mgh_site_60_20_20_across_ct_codes_same_classifier-SPLIT=test-CLASSIFIER=extra_trees.html">Stratified AUC for same classifier</a>
 <br>
 <br>
 
-<a href="LABEL=across_visits_num_codes-CLASSIFIER=logistic_regression-SPLIT=train.html">Stratified AUC retraining the classifier at each time</a>
+<a href="LABEL=mgh_site_60_20_20_across_visits_num_codes-SPLIT=train-CLASSIFIER=extra_trees.html">Stratified AUC retraining the classifier at each time</a>
 <br>
 <br>
 
 <h2>Evaluation at each treatment change per patient</h2>
 
-We also evaluate for meds that have already been used in the past (by definition, no churn).
+In this case, we evaluate not only for each drug initiation, but also for meds that have already been used in the past (by definition, no churn).
 
 <br>
 <br>
