@@ -1,16 +1,38 @@
 <h1>Temporal Results Drop-out Prediction</h1>
 
+
+<h2>Evaluation at each drug initialization</h2>
+
 <a href="INPUT_NAMES=X-DRUG=amitriptyline-PENALTY=l1.html">Grid search for regularization term</a>
 <br>
 <br>
 
-<a href="LABEL=stratified_eval_across_ct_codes-SPLIT=train-CLASSIFIER=logistic_regression.html">AUC for same classifier with varying number of codes (evaluation at each drug initialization)</a>
+<h3>TRAIN/VALID/TEST = 80/10/10</h3>
+<a href="LABEL=across_ct_codes_same_classifier-SPLIT=train-CLASSIFIER=logistic_regression.html">Stratified AUC for same classifier</a>
+<br>
 <br>
 
-<a href="LABEL=across_visits_num_codes-CLASSIFIER=logistic_regression-SPLIT=train.html">AUC across visits depending on number of codes in history or number of previous treatments (evaluation at each drug initialization)</a>
+<a href="LABEL=across_visits_num_codes-CLASSIFIER=logistic_regression-SPLIT=train.html">Stratified AUC retraining classifiers</a>
+<br>
+<br>
+
+<h3>TRAIN/VALID/TEST = 60/20/20</h3>
+<a href="LABEL=across_ct_codes_same_classifier-SPLIT=train-CLASSIFIER=logistic_regression.html">Stratified AUC for same classifier</a>
+<br>
+<br>
+
+<a href="LABEL=across_visits_num_codes-CLASSIFIER=logistic_regression-SPLIT=train.html">Stratified AUC retraining the classifier at each time</a>
+<br>
+<br>
+
+<h2>Evaluation at each treatment change per patient</h2>
+
+We also evaluate for meds that have already been used in the past (by definition, no churn).
+
 <br>
 <br>
 <a href="SPLIT=train-CLASSIFIER=logistic_regression.html">AUC across different types of visits (former evaluation)</a>
+<br>
 <br>
 <a href="CLASSIFIER=logistic_regression-SPLIT=train.html">AUC per drug (evaluation at first visit in last segment)</a>
 
