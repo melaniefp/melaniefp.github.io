@@ -1,0 +1,7 @@
+
+CODE	DESCRIPTION
+
+78079	other_malaise_and_fatigue_78079
+78071	chronic_fatigue_syndrome_78071
+7807	malaise_and_fatigue_7807
+87807	infectious_agent_antigen_detection_by_immunoassay_with_direct_optical_observation;_respiratory_syncytial_virus_c87807

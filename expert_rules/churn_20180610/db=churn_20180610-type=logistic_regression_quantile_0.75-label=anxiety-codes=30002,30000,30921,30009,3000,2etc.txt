@@ -1,0 +1,9 @@
+
+CODE	DESCRIPTION
+
+30002	generalized_anxiety_disorder_30002
+30000	anxiety_state,_unspecified_30000
+30921	separation_anxiety_disorder_30921
+30009	other_anxiety_states_30009
+3000	anxiety_states_3000
+29384	organic_anxiety_syndrome_29384

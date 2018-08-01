@@ -1,0 +1,10 @@
+
+CODE	DESCRIPTION
+
+4452	zaleplon_d04452
+395	trazodone_d00395
+78051	insomnia_with_sleep_apnea_78051
+5578	ramelteon_d05578
+78052	other_insomnia_78052
+910	zolpidem_d00910
+5421	eszopiclone_d05421

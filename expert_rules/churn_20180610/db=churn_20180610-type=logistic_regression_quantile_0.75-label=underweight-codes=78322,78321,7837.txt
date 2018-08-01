@@ -1,0 +1,6 @@
+
+CODE	DESCRIPTION
+
+78322	underweight_78322
+78321	loss_of_weight_78321
+7837	adult_failure_to_thrive_7837

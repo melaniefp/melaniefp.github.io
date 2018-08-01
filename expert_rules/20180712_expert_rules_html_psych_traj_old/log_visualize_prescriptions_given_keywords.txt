@@ -1,0 +1,292 @@
+codes 78071,78079,7807
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label fatigue
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+78079	other_malaise_and_fatigue_78079
+78071	chronic_fatigue_syndrome_78071
+7807	malaise_and_fatigue_7807
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=fatigue-codes=78079,78071,7807.png
+
+--------------------------------------------------------------
+
+codes None
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label agitation
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+Empty query results: no EHR code matches the provided keywords/codes
+--------------------------------------------------------------
+
+codes None
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label anxiety
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+30002	generalized_anxiety_disorder_30002
+30000	anxiety_state,_unspecified_30000
+30921	separation_anxiety_disorder_30921
+30009	other_anxiety_states_30009
+3000	anxiety_states_3000
+29384	organic_anxiety_syndrome_29384
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=anxiety-codes=30002,30000,30921,30009,3000,2etc.png
+
+--------------------------------------------------------------
+
+codes 32709,32702,32701,32700,78051,78052,35635-2,00395,00910,05421
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label insomnia
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+395	trazodone_d00395
+910	zolpidem_d00910
+78051	insomnia_with_sleep_apnea_78051
+5421	eszopiclone_d05421
+78052	other_insomnia_78052
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=insomnia-codes=00395,00910,78051,05421,78052.png
+
+--------------------------------------------------------------
+
+codes 32713,32714,78053,32711,32710,78054
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label hypersomnia
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+78054	other_hypersomnia_78054
+78053	hypersomnia_with_sleep_apnea_78053
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=hypersomnia-codes=78054,78053.png
+
+--------------------------------------------------------------
+
+codes 31401,31400,3140,79951,96115,97532,97770
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label poor_concentration
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+3140	multivitamin_d03140
+97532	development_of_cognitive_skills_to_improve_attention,_memory,_problem_solving,_(includes_compensatory_training),_direct_(one-on-one)_patient_contact_by_the_provider,_each_15_minutes_c97532
+31401	attention_deficit_disorder_of_childhood_with_hyperactivity_31401
+31400	attention_deficit_disorder_of_childhood_without_mention_of_hyperactivity_31400
+73140	radiologic_examination,_finger(s),_minimum_of_two_views_c73140
+53140	chronic_or_unspecified_gastric_ulcer_with_hemorrhage,_without_mention_of_obstruction_53140
+96115	neurobehavioral_status_exam_(clinical_assessment_of_thinking,_reasoning_and_judgment,_eg,_acquired_knowledge,_attention,_memory,_visual_spatial_abilities,_language_functions,_planning)_with_interpretation_and_report,_per_hour_c96115
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=poor_concentration-codes=03140,97532,31401,31400,73140,etc.png
+
+--------------------------------------------------------------
+
+codes 9531,9500,9550,9554,9570,9579,9506,9589,956,9585,9520,9504,9528,9588,9571,9551,9509,9530,9503,9505,9583,9501,9538,9502,9580,9521,9581,9507,954,9539
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label suicide
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+79579	other_and_unspecified_nonspecific_immunological_findings_79579
+9500	suicide_and_self-inflicted_poisoning_by_analgesics,_antipyretics,_and_antirheumatics_e9500
+7954	other_nonspecific_abnormal_histological_findings_7954
+71956	stiffness_of_joint,_not_elsewhere_classified,_involving_lower_leg_71956
+71954	stiffness_of_joint,_not_elsewhere_classified,_involving_hand_71954
+956	suicide_and_self-inflicted_injury_by_cutting_and_piercing_instrument_e956
+79505	cervical_high_risk_human_papillomavirus_(hpv)_dna_test_positive_79505
+29500	simple_type_schizophrenia,_unspecified_state_29500
+69589	other_specified_erythematous_conditions_69589
+9509	suicide_and_self-inflicted_poisoning_by_other_and_unspecified_solid_and_liquid_substances_e9509
+99520	unspecified_adverse_effect_of_unspecified_drug,_medicinal_and_biological_substance_99520
+29580	strapping;_unna_boot_c29580
+79504	papanicolaou_smear_of_cervix_with_high_grade_squamous_intraepithelial___lesion_(hgsil)_79504
+9503	suicide_and_self-inflicted_poisoning_by_tranquilizers_and_other_psychotropic_agents_e9503
+49505	repair_initial_inguinal_hernia,_age_5_years_or_over;_reducible_c49505
+79500	nonspecific_abnormal_pap_smear_of_cervix,_unspecified_79500
+79501	atypical_squamous_cell_changes_of_undetermined_significance_favor_benign_(ascus_favor_benign)_79501
+79502	atypical_squamous_cell_changes_of_undetermined_significance_favor_dysplasia_(ascus_favor_dysplasia)_79502
+79503	papanicolaou_smear_of_cervix_with_low_grade_squamous_intraepithelial__lesion_(lgsil)_79503
+9583	posttraumatic_wound_infection_not_elsewhere_classified_9583
+49585	repair_umbilical_hernia,_age_5_years_or_over;_reducible_c49585
+9504	suicide_and_self-inflicted_poisoning_by_other_specified_drugs_and_medicinal_substances_e9504
+9588	other_early_complications_of_trauma_9588
+6954	lupus_erythematosus_6954
+79509	other_nonspecific_abnormal_pap_smear_of_cervix_79509
+29530	paranoid_type_schizophrenia,_unspecified_state_29530
+99581	adult_physical_abuse_99581
+29570	schizo-affective_type_schizophrenia,_unspecified_state_29570
+79551	nonspecific_reaction_to_tuberculin_skin_test_without_active_tuberculosis_79551
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=suicide-codes=79579,9500,7954,71956,71954,95etc.png
+
+--------------------------------------------------------------
+
+codes None
+codes_txt_path /PHShome/mf204/git/psychtraj-dataset-tools/scripts_to_analyze_dataset/expert_rules_codes_txt_files/codes_pain.txt
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label pain
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+3356	chlorpheniramine-hydrocodone_d03356
+78906	abdominal_pain,_epigastric_78906
+44022	atherosclerosis_of_the_extremities_with_rest_pain_44022
+78096	generalized_pain_78096
+75625	aortography,_abdominal,_by_serialography,_radiological_supervision_and_interpretation_c75625
+3431	acetaminophen-oxycodone_d03431
+3428	acetaminophen-hydrocodone_d03428
+3393	codeine-guaifenesin_d03393
+33818	other_acute_postoperative_pain_33818
+33819	other_acute_pain_33819
+7873	flatulence,_eructation,_and_gas_pain_7873
+3423	acetaminophen-codeine_d03423
+33811	acute_pain_due_to_trauma_33811
+71941	pain_in_joint_involving_shoulder_region_71941
+30780	psychogenic_pain,_site_unspecified_30780
+37991	pain_in_or_around_eye_37991
+3340	homatropine-hydrocodone_d03340
+3383	neoplasm_related_pain_(acute)_(chronic)_3383
+7241	pregnancy_examination_or_test,_negative_result_v7241
+7841	throat_pain_7841
+78907	abdominal_pain,_generalized_78907
+4852	bupivacaine-fentanyl_d04852
+77295	therapeutic_radiology_simulation-aided_field_setting;_three-dimensional_c77295
+1164	codeine_d01164
+6258	other_specified_symptoms_associated_with_female_genital_organs_6258
+12	codeine_d00012
+78652	painful_respiration_78652
+78651	precordial_pain_78651
+78650	unspecified_chest_pain_78650
+44625	closure_of_enterostomy,_large_or_small_intestine;_with_resection_and_anastomosis_other_than_colorectal_c44625
+255	hydromorphone_d00255
+50	methadone_d00050
+78659	other_chest_pain_78659
+7194	pain_in_joint_7194
+71944	pain_in_joint_involving_hand_71944
+71945	pain_in_joint_involving_pelvic_region_and_thigh_71945
+71946	pain_in_joint_involving_lower_leg_71946
+71947	pain_in_joint_involving_ankle_and_foot_71947
+71940	pain_in_joint,_site_unspecified_71940
+7295	pain_in_limb_7295
+71942	pain_in_joint_involving_upper_arm_71942
+71943	pain_in_joint_involving_forearm_71943
+4225	hydrocodone-ibuprofen_d04225
+3384	chronic_pain_syndrome_3384
+71948	pain_in_joint_involving_other_specified_sites_71948
+71949	pain_in_joint_involving_multiple_sites_71949
+6253	dysmenorrhea_6253
+78909	abdominal_pain,_other_specified_site;_multiple_sites_78909
+33821	chronic_pain_due_to_trauma_33821
+86255	fluorescent_noninfectious_agent_antibody;_screen,_each_antibody_c86255
+78903	abdominal_pain,_right_lower_quadrant_78903
+78902	abdominal_pain,_left_upper_quadrant_78902
+78901	abdominal_pain,_right_upper_quadrant_78901
+78900	abdominal_pain,_unspecified_site_78900
+33829	other_chronic_pain_33829
+329	oxycodone_d00329
+78905	abdominal_pain,_periumbilic_78905
+78904	abdominal_pain,_left_lower_quadrant_78904
+56942	anal_or_rectal_pain_56942
+1625	malignant_neoplasm_of_lower_lobe,_bronchus_or_lung_1625
+308	morphine_d00308
+86256	fluorescent_noninfectious_agent_antibody;_titer,_each_antibody_c86256
+3502	atypical_face_pain_3502
+7865	chest_pain_7865
+6256	stress_incontinence,_female_6256
+6259	unspecified_symptom_associated_with_female_genital_organs_6259
+3429	acetaminophen-hydrocodone_d03429
+4887	bupivacaine-hydromorphone_d04887
+31625	bronchoscopy_(rigid_or_flexible);_with_biopsy_c31625
+29625	major_depressive_disorder,_single_episode,_in_partial_or_unspecified_remission_29625
+6250	dyspareunia_6250
+3625	acetic_acid-hydrocortisone_otic_d03625
+7890	abdominal_pain_7890
+6254	premenstrual_tension_syndromes_6254
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=pain-codes=03356,78906,44022,78096,75625,etc.png
+
+--------------------------------------------------------------
+
+codes None
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label irritability
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+Empty query results: no EHR code matches the provided keywords/codes
+--------------------------------------------------------------
+
+codes None
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label overweight
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+27802	overweight_27802
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=overweight-codes=27802.png
+
+--------------------------------------------------------------
+
+codes 78322,78321,78341,7837
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label underweight
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+CODE	DESCRIPTION
+
+78322	underweight_78322
+78321	loss_of_weight_78321
+7837	adult_failure_to_thrive_7837
+
+WROTE FILE: /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/label=underweight-codes=78322,78321,7837.png
+
+--------------------------------------------------------------
+
+codes 799.81,302.71,607.84,302.72
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label concern_sexual_dysfn
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+Empty query results: no EHR code matches the provided keywords/codes
+--------------------------------------------------------------
+
+codes None
+codes_txt_path /PHShome/mf204/git/psychtraj-dataset-tools/scripts_to_analyze_dataset/expert_rules_codes_txt_files/codes_concern_QT_prolongation.txt
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label concern_QT_prolongation
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+Empty query results: no EHR code matches the provided keywords/codes
+--------------------------------------------------------------
+
+codes 15.81
+codes_txt_path None
+input_path /PHShome/mf204/datasets/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/
+label concern_nonadherence
+output_path /PHShome/mf204/output/psych_traj_20180706/xy_dump-all_eligible_patients-censor_after_first_success=1/mgh_stable_only_80_10_10/all_dmed_first_visits/100perc/expert_rules/
+
+Empty query results: no EHR code matches the provided keywords/codes
+--------------------------------------------------------------
+
