@@ -1,4 +1,6 @@
-** PSYCH PROJECT **
+-------------
+PSYCH PROJECT
+-------------
 
 * 2018-07-12: normalized histogram of prescriptions for each expert rule:
 https://melaniefp.github.io/psych/201807_expert_rules/20180712_expert_rules_html_psych_traj_old/LABEL=anxiety.html
