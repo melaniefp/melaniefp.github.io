@@ -14,3 +14,5 @@ https://melaniefp.github.io/psych/20180706_calibration/SPLIT=train-CLASSIFIER=ex
     - churn:
         https://melaniefp.github.io/psych/201807_expert_rules/churn_20180610/TYPE=extra_trees_quantile_0.75-LABEL=anxiety.html
 
+* 2018-08-15: dropout prediction by provider:
+	https://melaniefp.github.io/psych/20180815_dropout_prediction_by_provider/CENSOR=0-PROVIDER=all-SEED=101-CLASSIFIER=extra_trees-SPLIT=test.html
