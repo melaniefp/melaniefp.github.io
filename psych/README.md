@@ -21,5 +21,5 @@ PSYCH PROJECT
 * <a href="https://melaniefp.github.io/psych/20180829_dropout_prediction_by_provider_global_classifier/STRAT=all-CLASSIFIER=extra_trees-SPLIT=test.html"> 2018-08-29: dropout prediction by provider (global classifier) </a>
 	
 
-* <a href="https://melaniefp.github.io/psych/20180829_lift_curves/  "> 2018-08-29: lift curves </a>
+* <a href="https://melaniefp.github.io/psych/20180829_lift_curves/CLASSIFIER=extra_trees-SPLIT=test-INPUT=X,dem,age,date_numeric_yrs_from_1970-TARGET=bupropion.html  "> 2018-08-29: lift curves </a>
 	
