@@ -12,3 +12,5 @@ test log likelihood results for different real datasets and types of initializat
 * <a href="https://melaniefp.github.io/bnn/20180830_pbnn_baselines/TYPE=rmse_test-ACTIVATION=relu-DB=yacht.html">20180830: Comparison against other baselines.</a> Test log lik and rmse performance Vs plain BNN with SVI (Blundell et.al 2015) and multi-variate Gaussian (Louizos et.al. 2016). Average over 100 different initializations.
 
 * <a href="https://melaniefp.github.io/bnn/20180831_joint_optim/TYPE=rmse_test-ACTIVATION=relu-CRITERIA=avg-DB=yacht.html">20180831: Joint training of projectino and u-space.</a>
+
+* <a href="https://melaniefp.github.io/bnn/20180905_seq_and_joint_optim/MODEL=joint_pbnn-TYPE=avg_llh_test-ACTIVATION=rbf-CRITERIA=avg-DB=boston.html">20180905: Three different inference strategies.</a>
