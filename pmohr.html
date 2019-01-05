@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Francisco J. R. Ruiz</title>
+  <meta name="description" content="Francisco J. R. Ruiz's personal webpage" />
+  <meta name="keywords" content="francisco ruiz, webpage, research, university carlos III" />
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <!-- Start of Google Analytics script-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73437665-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- End of Google Analytics script-->
+</head>
+
+<body>
+  <script type="text/javascript">
+	<!-- 
+	function magic( domain, name ) { 
+	document.write('<a href="mai' + 
+    'lto:' + name + '@' + domain + '">' + name + '@' + domain + '</' + 'a>'); }
+    // -->
+  </script>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="green", allows you to change the colour of the text - other classes are: "blue", "orange", "red", "purple" and "yellow" -->
+          <h1><span class="green">Francisco Jesus Rodriguez Ruiz</span></h1>
+        </div>
+        <!--
+        <div id="menubar">
+          <ul id="menu">
+            <li><a class="first" href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li class="tab_selected"><a class="last" href="ex_links.html">External links</a></li>
+          </ul>
+        </div>
+        -->
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <img src="/style/flag_eu.jpg" style="height:80px;">
+        <p><i>This project is funded by the EU H2020 programme (Marie-Sklodowska Curie Individual Fellowship) under the grant agreement 706760.</i></p>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>PMOHR Summary</h1>
+        <p>Machine learning is a field of computer science with the aim of discovering statistical patterns in large datasets and making predictions using these patterns. While there is a growing interest on methods that can provide accurate predictions on unseen data, comparatively less effort is invested on designing interpretable machine learning models. Interpretable models have the benefit to provide human-understandable patterns that can be interpreted by domain experts. This enables knowledge discovery in the scientific disciplines, and it also allows reasoning about causality and making counterfactual predictions.</p>
+		<p>In probabilistic machine learning, we first encode our assumptions about the data structure in the form of a model that has latent variables, which represent the hidden patterns. We then learn the latent variables using an inference algorithm. The results of the inference procedure can be used to make predictions and explore the data collection. Crucially, we can impose an interpretable structure in the model design phase. Finally, in probabilistic machine learning we can also apply model testing approaches to verify the properties of the posited model and whether if fails capture certain properties of the data.</p>
+		<p>PMOHR is an interdisciplinary project focused on the design of interpretable models through probabilistic machine learning, with the ultimate goal of modelling Electronic Health Records (EHRs). Applying machine learning tools to EHR data can help not only design clinical support systems, but it may also lead to uncover unknown patterns from the data and even form causal theories.</p>
+		<p>However, medical data, and EHRs in particular, present several challenges that prevent us from applying probabilistic modelling tools, because the datasets are large and heterogeneous. The objectives of PMOHR are to develop both probabilistic models and inference algorithms that are suitable for modelling EHR data. This new set of tools can then be applied to make predictions and to analyse medical datasets.</p>
+
+        <h1>News</h1>
+
+        <!--
+        <h2>Dec 2018: Organized 1st Symposium on Advances in Approximate Bayesian Inference</h2>
+        <p><b>1st Symposium on Advances in Approximate Bayesian Inference</b> [<a href="http://approximateinference.org/">link</a>]
+        <br/>
+        Probabilistic modeling is a useful tool to analyze and understand real-world data. Central to the success of Bayesian modeling is posterior inference, for which approximate inference algorithms are typically needed in most problems of interest. The two pillars of approximate Bayesian inference are variational and Monte Carlo methods. In the recent years, there have been numerous advances in both methods, which have enabled Bayesian inference in increasingly challenging scenarios involving complex probabilistic models and large datasets.<br/>
+        In this symposium, besides recent advances in approximate inference, we will discuss the impact of Bayesian inference, connecting approximate inference methods with other fields. In particular, we encourage submissions that relate Bayesian inference to the fields of reinforcement learning, causal inference, decision processes, Bayesian compression, or differential privacy, among others. We also encourage submissions that contribute to connecting different approximate inference methods, such as variational inference and Monte Carlo. </p>
+        -->
+
+        <h2>Nov 2018: Invited Talk at Amazon Research (Cambridge, UK)</h2>
+        <p>Shopper: A Probabilistic Model of Consumer Choice with Substitutes and Complements [<a href="./contents/group_talks/Amazon-Nov2018.pdf">slides</a>]
+        <br/>
+        </p>
+
+        <h2>Aug 2018: Paper Submitted to ArXiv</h2>
+        <p><b>Unbiased Implicit Variational Inference</b> [<a href="https://arxiv.org/abs/1808.02078">link</a>]
+        <br/>
+        We develop unbiased implicit variational inference (UIVI), a method that expands the applicability of variational inference by defining an expressive variational family. UIVI considers an implicit variational distribution obtained in a hierarchical manner using a simple reparameterizable distribution whose variational parameters are defined by arbitrarily flexible deep neural networks. Unlike previous works, UIVI directly optimizes the evidence lower bound (ELBO) rather than an approximation to the ELBO. We demonstrate UIVI on several models, including Bayesian multinomial logistic regression and variational autoencoders, and show that UIVI achieves both tighter ELBO and better predictive performance than existing approaches at a similar computational cost. </p>
+
+        <h2>Jul 2018: Paper Submitted to BioRxiv</h2>
+        <p><b>De novo Gene Signature Identification from Single-Cell RNA-Seq with Hierarchical Poisson Factorization</b> [<a href="https://www.biorxiv.org/content/early/2018/07/11/367003">link</a>]
+        <br/>
+        Common approaches to gene signature discovery in single cell RNA-sequencing (scRNA-seq) depend upon predefined structures like clusters or pseudo-temporal order, require prior normalization, or do not account for the sparsity of single cell data. We present single cell Hierarchical Poisson Factorization (scHPF), a Bayesian factorization method that adapts Hierarchical Poisson Factorization for de novo discovery of both continuous and discrete expression patterns from scRNA-seq. scHPF does not require prior normalization and captures statistical properties of single cell data better than other methods in benchmark datasets. Applied to scRNA-seq of the core and margin of a high-grade glioma, scHPF uncovers marked differences in the abundance of glioma subpopulations across tumor regions and subtle, regionally-associated expression biases within glioma subpopulations. scHFP revealed an expression signature that was spatially biased towards the glioma-infiltrated margins and associated with inferior survival in glioblastoma.</p>
+
+        <h2>Jul 2018: Paper Accepted at ICML 2018</h2>
+        <p><b>Augment and Reduce: Stochastic Inference for Large Categorical Distributions</b> [<a href="http://franrruiz.github.io/contents/conferences/2018/RuizTitsiasDiengBlei2018.pdf">link</a>]
+        <br/>
+        Categorical distributions are ubiquitous in machine learning, e.g., in classification, language models, and recommendation systems. However, when the number of possible outcomes is very large, using categorical distributions becomes computationally expensive, as the complexity scales linearly with the number of outcomes. To address this problem, we propose augment and reduce (A&R), a method to alleviate the computational complexity. A&R uses two ideas: latent variable augmentation and stochastic variational inference. It maximizes a lower bound on the marginal likelihood of the data. Unlike existing methods which are specific to softmax, A&R is more general and is amenable to other categorical models, such as multinomial probit. On several large-scale classification problems, we show that A&R provides a tighter bound on the marginal likelihood and has better predictive performance than existing approaches. </p>
+
+        <h2>Jun 2018: Invited Talk at ISBA Workshop</h2>
+        <p>Shopper: A Probabilistic Model of Consumer Choice with Substitutes and Complements [<a href="https://bayesian.org/isba2018/short-courses/">link</a>] [<a href="./contents/group_talks/BcnGSE-Jun2018.pdf">slides</a>]
+        <br/>
+        </p>
+
+        <h2>Jun 2018: Invited Talk at Universitat de Barcelona</h2>
+        <p>Shopper: A Probabilistic Model of Consumer Choice with Substitutes and Complements [<a href="./contents/group_talks/UBcn-Jun2018.pdf">slides</a>]
+        <br/>
+        </p>
+
+        <h2>Jun 2018: Invited Talk at Barcelona GSE Summer Forum</h2>
+        <p>Shopper: A Probabilistic Model of Consumer Choice with Substitutes and Complements [<a href="https://www.barcelonagse.eu/summer-forum/workshop-data-science-economics">link</a>] [<a href="./contents/group_talks/BcnGSE-Jun2018.pdf">slides</a>]
+        <br/>
+        </p>
+
+        <h2>May 2018: Code Released</h2>
+        <p><b>Augment and Reduce</b> [<a href="https://github.com/franrruiz/augment-reduce">link</a>]
+        <br/>
+        The code for our ICML paper has been released.</p>
+
+        <h2>May 2018: Code Released</h2>
+        <p><b>Shopper</b> [<a href="https://github.com/franrruiz/shopper-src">link</a>]
+        <br/>
+        The code for our ArXiv paper has been released.</p>
+
+        <h2>May 2018: Paper Accepted at American Economics Association Papers and Proceedings</h2>
+        <p><b>Estimating Heterogeneous Consumer Preferences for Restaurants and Travel Time Using Mobile Location Data</b> [<a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20181031">link</a>]
+        <br/>
+        We estimate a model of consumer choices over restaurants using data from several thousand anonymous mobile phone users. Restaurants have latent characteristics (whose distribution may depend on restaurant observables) that affect consumers' mean utility as well as willingness to travel to the restaurant, while each user has distinct preferences for these latent characteristics. We analyze how consumers reallocate their demand after a restaurant closes to nearby restaurants versus more distant restaurants, comparing our predictions to actual outcomes. We also address counterfactual questions such as what type of restaurant would attract the most consumers in a given location. </p>
+
+        <h2>Apr 2018: Workflow Chair at AISTATS 2018</h2>
+        <p><b>21st International Conference on Artificial Intelligence and Statistics</b> [<a href="https://www.aistats.org/aistats2018/">link</a>]
+        <br/>
+        The 21st International Conference on Artificial Intelligence and Statistics (AISTATS 2018) will be held in Playa Blanca, Lanzarote, Canary Islands from Monday, 9 April 2018 to Wednesday, 11 April 2018 at the Hotel H10 Rubicon Palace.<br/>
+        Since its inception in 1985, AISTATS has been an interdisciplinary gathering of researchers at the intersection of artificial intelligence, machine learning, statistics, and related areas.</p>
+
+        <h2>Apr 2018: Invited Talk at Stony Brook University</h2>
+        <p>Augment and Reduce: Stochastic Inference for Large Categorical Distributions [<a href="./contents/group_talks/SBU-Apr2018.pdf">slides</a>]
+        <br/>
+        </p>
+
+        <h2>Apr 2018: Poster Presentation at DALI</h2>
+        <p>Augment and Reduce: Stochastic Inference for Large Categorical Distributions [<a href="http://dalimeeting.org/dali2018/">link</a>]
+        <br/>
+
+        <h2>Mar 2018: Poster Presentation in NY Annual ML Symposium</h2>
+        <p>
+        Title: "Augment and Reduce: Stochastic Inference for Large Categorical Distributions"
+        </p>
+
+        <h2>Mar 2018: Interview at El País Retina</h2>
+        <p>Interview for the Spanish newspaper <i>El País Retina</i> [<a href="https://retina.elpais.com/retina/2018/03/19/innovacion/1521472278_250632.html">link</a>]
+        </p>
+
+        <h2>Feb 2018: Code Released</h2>
+        <p><b>Structured Embeddings</b> [<a href="https://github.com/mariru/structured_embeddings">link</a>]
+        <br/>
+        The code for our NIPS paper has been released.</p>
+
+        <h2>Jan 2018: Paper Accepted at IEEE Transactions on Cognitive Communications and Networking</h2>
+        <p><b>Infinite Factorial Finite State Machine for Blind Multiuser Channel Estimation</b> [<a href="https://ieeexplore.ieee.org/document/8249857">link</a>]
+        <br/>
+        New communication standards need to deal with machine-to-machine communications, in which users may start or stop transmitting at any time in an asynchronous manner. Thus, the number of users is an unknown and time-varying parameter that needs to be accurately estimated in order to properly recover the symbols transmitted by all users in the system. In this paper, we address the problem of joint channel parameter and data estimation in a multiuser communication channel in which the number of transmitters is not known. For that purpose, we develop the infinite factorial finite state machine model, a Bayesian nonparametric model based on the Markov Indian buffet that allows for an unbounded number of transmitters with arbitrary channel length. We propose an inference algorithm that makes use of slice sampling and particle Gibbs with ancestor sampling. Our approach is fully blind as it does not require a prior channel estimation step, prior knowledge of the number of transmitters, or any signaling information. Our experimental results, loosely based on the LTE random access channel, show that the proposed approach can effectively recover the data-generating process for a wide range of scenarios, with varying number of transmitters, number of receivers, constellation order, channel length, and signal-to-noise ratio.</p>
+
+        <h2>Dec 2017: Organized NIPS 2017 Workshop</h2>
+        <p><b>Advances in Approximate Bayesian Inference</b> [<a href="http://approximateinference.org/2017/">link</a>]
+        <br/>
+         Approximate inference is key to modern probabilistic modeling. Thanks to the availability of big data, significant computational power, and sophisticated models, machine learning has achieved many breakthroughs in multiple application domains. At the same time, approximate inference becomes critical since exact inference is intractable for most models of interest. Within the field of approximate Bayesian inference, variational and Monte Carlo methods are currently the mainstay techniques. For both methods, there has been considerable progress both on the efficiency and performance.<br/>
+         In this workshop, we encourage submissions advancing approximate inference methods. We are open to a broad scope of methods within the field of Bayesian inference. In addition, we also encourage applications of approximate inference in many domains, such as computational biology, recommender systems, differential privacy, and industry applications. </p>
+
+        <h2>Dec 2017: Paper Accepted at NIPS 2017</h2>
+        <p><b>Structured Embedding Models for Grouped Data</b> [<a href="https://papers.nips.cc/paper/6629-structured-embedding-models-for-grouped-data.pdf">link</a>]
+        <br/>
+        Word embeddings are a powerful approach for analyzing language, and exponential family embeddings (EFE) extend them to other types of data. Here we develop structured exponential family embeddings (S-EFE), a method for discovering embeddings that vary across related groups of data. We study how the word usage of U.S. Congressional speeches varies across states and party affiliation, how words are used differently across sections of the ArXiv, and how the co-purchase patterns of groceries can vary across seasons. Key to the success of our method is that the groups share statistical information. We develop two sharing strategies: hierarchical modeling and amortization. We demonstrate the benefits of this approach in empirical studies of speeches, abstracts, and shopping baskets. We show how S-EFE enables group-specific interpretation of word usage, and outperforms EFE in predicting held-out data. </p>
+
+        <h2>Dec 2017: Paper Accepted at NIPS 2017</h2>
+        <p><b>Context Selection for Embedding Models</b> [<a href="https://papers.nips.cc/paper/7067-context-selection-for-embedding-models.pdf">link</a>]
+        <br/>
+        Word embeddings are an effective tool to analyze language. They have been recently extended to model other types of data beyond text,  such as items in recommendation systems. Embedding models consider the probability of a target observation (a word or an item) conditioned on the elements in the context (other words or items). In this paper, we show that conditioning on all the elements in the context is not optimal. Instead, we model the probability of the target conditioned on a learned subset of the elements in the context. We use amortized variational inference to automatically choose this subset. Compared to standard embedding models, this method improves predictions and the quality of the embeddings.</p>
+
+        <h2>Dec 2017: Paper in NIPS Workshop on Approximate Bayesian Inference</h2>
+        <p><b>Scalable Large-Scale Classification with Latent Variable Augmentation</b> [<a href="http://approximateinference.org/2017/accepted/RuizEtAl2017_poster.pdf">link</a>]
+        <br/>
+        Categorical distributions are ubiquitous in machine learning, e.g., in classification, language models, and recommendation systems. However, when the number of possible outcomes is very large, using categorical distributions becomes computationally expensive, as the complexity scales linearly with the number of outcomes. To address this problem, we propose a method to alleviate the computational complexity. We use two ideas: latent variable augmentation and stochastic variational inference, and we maximize a lower bound on the marginal likelihood of the data. Unlike existing methods which are specific to softmax, our method is more general and is amenable to other categorical models, such as multinomial probit.</p>
+
+        <h2>Dec 2017: Paper in NIPS Workshop on Bayesian Deep Learning</h2>
+        <p><b>Word2Net: Deep Representations of Language</b> [<a href="https://openreview.net/forum?id=SkJd_y-Cb">link</a>]
+        <br/>
+        Word embeddings extract semantic features of words from large datasets of text. Most embedding methods rely on a log-bilinear model to predict the occurrence of a word in a context of other words. Here we propose word2net, a method that replaces their linear parametrization with neural networks. For each term in the vocabulary, word2net posits a neural network that takes the context as input and outputs a probability of occurrence. Further, word2net can use the hierarchical organization of its word networks to incorporate additional meta-data, such as syntactic features, into the embedding model. For example, we show how to share parameters across word networks to develop an embedding model that includes part-of-speech information. We study word2net with two datasets, a collection of Wikipedia articles and a corpus of U.S. Senate speeches. Quantitatively, we found that word2net outperforms popular embedding methods on predicting held-out words and that sharing parameters based on part of speech further boosts performance. Qualitatively, word2net learns interpretable semantic representations and, compared to vector-based methods, better incorporates syntactic information.</p>
+
+        <h2>Nov 2017: Code Released</h2>
+        <p><b>Context Selection for Embedding Models</b> [<a href="https://github.com/blei-lab/context-selection-embedding">link</a>]
+        <br/>
+        The code for our NIPS paper has been released.</p>
+
+        <h2>Nov 2017: Paper Submitted to ArXiv</h2>
+        <p><b>Shopper: A Probabilistic Model of Consumer Choice with Substitutes and Complements</b> [<a href="https://arxiv.org/abs/1711.03560">link</a>]
+        <br/>
+        We develop SHOPPER, a sequential probabilistic model of shopping data. SHOPPER uses interpretable components to model the forces that drive how a customer chooses products; in particular, we designed SHOPPER to capture how items interact with other items. We develop an efficient posterior inference algorithm to estimate these forces from large-scale data, and we analyze a large dataset from a major chain grocery store. We are interested in answering counterfactual queries about changes in prices. We found that SHOPPER provides accurate predictions even under price interventions, and that it helps identify complementary and substitutable pairs of products.</p>
+
+        <h2>Jun 2017: Paper Accepted at IEEE Transactions on Signal Processing</h2>
+        <p><b>Poisson Multi-Bernoulli Radar Mapping Using Gibbs Sampling</b> [<a href="https://ieeexplore.ieee.org/document/7867064">link</a>]
+        <br/>
+        This paper addresses the mapping problem. Using a conjugate prior form, we derive the exact theoretical batch multiobject posterior density of the map given a set of measurements. The landmarks in the map are modeled as extended objects, and the measurements are described as a Poisson process, conditioned on the map. We use a Poisson process prior on the map and prove that the posterior distribution is a hybrid Poisson, multi-Bernoulli mixture distribution. We devise a Gibbs sampling algorithm to sample from the batch multiobject posterior. The proposed method can handle uncertainties in the data associations and the cardinality of the set of landmarks, and is parallelizable, making it suitable for large-scale problems. The performance of the proposed method is evaluated on synthetic data and is shown to outperform a state-of-the-art method.</p>
+
+        <h2>Apr 2017: Paper Accepted at AISTATS 2017</h2>
+        <p><b>Reparameterization Gradients through Acceptance-Rejection Sampling Algorithms</b> [<a href="http://proceedings.mlr.press/v54/naesseth17a/naesseth17a.pdf">link</a>]
+        <br/> <i>Obtained the <u>best paper award</u>. See also this <a href="https://casmls.github.io/general/2017/04/25/rsvi.html">blog post</a>!</i>
+        <br/>
+        Variational inference using the reparameterization trick has enabled large-scale approximate Bayesian inference in complex probabilistic models, leveraging stochastic optimization to sidestep intractable expectations. The reparameterization trick is applicable when we can simulate a random variable by applying a differentiable deterministic function on an auxiliary random variable whose distribution is fixed. For many distributions of interest (such as the gamma or Dirichlet), simulation of random variables relies on acceptance-rejection sampling. The discontinuity introduced by the accept-reject step means that standard reparameterization tricks are not applicable. We propose a new method that lets us leverage reparameterization gradients even when variables are outputs of a acceptance-rejection sampling algorithm. Our approach enables reparameterization on a larger class of variational distributions. In several studies of real and synthetic data, we show that the variance of the estimator of the gradient is significantly lower than other state-of-the-art methods. This leads to faster convergence of stochastic gradient variational inference.</p>
+
+        <h2>Mar 2017: Poster Presentation in NY Annual ML Symposium</h2>
+        <p><i>IBM best poster presenter award.</i>
+        <br/>
+        Title: "Item Embeddings for Demand Estimation in Economics"
+        </p>
+
+        <h2>Feb 2017: Code Released</h2>
+        <p><b>Reparameterization Gradients through Acceptance-Rejection Sampling Algorithms</b> [<a href="https://github.com/blei-lab/ars-reparameterization">link</a>]
+        <br/>
+        The code for our AISTATS paper has been released.</p>
+
+        <h2>Dec 2016: Invited Talk at Universidad Carlos III de Madrid</h2>
+        <p>Exponential Family Embeddings: Application to Economics [<a href="./contents/group_talks/UC3M-Dec2016.pdf">slides</a>]
+        <br/>
+        </p>
+
+        <h2>Dec 2016: Paper Accepted at NIPS 2016</h2>
+        <p><b>The Generalized Reparameterization Gradient</b> [<a href="http://papers.nips.cc/paper/6328-the-generalized-reparameterization-gradient.pdf">link</a>]
+        <br/>
+        The reparameterization gradient has become a widely used method to obtain Monte Carlo gradients to optimize the variational objective. However, this technique does not easily apply to commonly used distributions such as beta or gamma without further approximations, and most practical applications of the reparameterization gradient fit Gaussian distributions. In this paper, we introduce the generalized reparameterization gradient, a method that extends the reparameterization gradient to a wider class of variational distributions. Generalized reparameterizations use invertible transformations of the latent variables which lead to transformed distributions that weakly depend on the variational parameters. This results in new Monte Carlo gradients that combine reparameterization gradients and score function gradients. We demonstrate our approach on variational inference for two complex probabilistic models. The generalized reparameterization is effective: even a single sample from the variational distribution is enough to obtain a low-variance gradient.</p>
+
+        <h2>Dec 2016: Paper Accepted at NIPS 2016</h2>
+        <p><b>Exponential Family Embeddings</b> [<a href="http://papers.nips.cc/paper/6571-exponential-family-embeddings.pdf">link</a>]
+        <br/>
+        Word embeddings are a powerful approach for capturing semantic similarity among terms in a vocabulary. In this paper, we develop exponential family embeddings, a class of methods that extends the idea of word embeddings to other types of high-dimensional data. As examples, we studied neural data with real-valued observations, count data from a market basket analysis, and ratings data from a movie recommendation system. The main idea is to model each observation conditioned on a set of other observations. This set is called the context, and the way the context is defined is a modeling choice that depends on the problem. In language the context is the surrounding words; in neuroscience the context is close-by neurons; in market basket data the context is other items in the shopping cart. Each type of embedding model defines the context, the exponential family of conditional distributions, and how the latent embedding vectors are shared across data. We infer the embeddings with a scalable algorithm based on stochastic gradient descent. On all three applications - neural activity of zebrafish, users' shopping behavior, and movie ratings - we found exponential family embedding models to be more effective than other types of dimension reduction. They better reconstruct held-out data and find interesting qualitative structure.</p>
+
+        <h2>Dec 2016: Obtained a Microsoft Azure 1-year Grant</h2>
+        <p>1-year subscription for Microsoft Azure [<a href="https://azure.microsoft.com">link</a>]</p>
+
+        <h2>Nov 2016: Code Released</h2>
+        <p><b>Exponential Family Embeddings</b> [<a href="https://github.com/franrruiz/p-emb">link p-emb</a>] [<a href="https://github.com/mariru/exponential_family_embeddings">link b-emb</a>]
+        <br/>
+        The code for our NIPS paper has been released.</p>
+
+        <h2>Nov 2016: Invited Talk at University of Cambridge</h2>
+        <p>Reparameterizing Challenging Distributions [<a href="./contents/group_talks/UCAM-Nov2016.pdf">slides</a>]
+        <br/>
+
+        <h2>Oct 2016: Paper Submitted to ArXiv</h2>
+        <p><b>Model Criticism for Bayesian Causal Inference</b> [<a href="https://arxiv.org/abs/1610.09037">link</a>]
+        <br/>
+        The goal of causal inference is to understand the outcome of alternative courses of action. However, all causal inference requires assumptions. Such assumptions can be more influential than in typical tasks for probabilistic modeling, and testing those assumptions is important to assess the validity of causal inference. We develop model criticism for Bayesian causal inference, building on the idea of posterior predictive checks to assess model fit. Our approach involves decomposing the problem, separately criticizing the model of treatment assignments and the model of outcomes. Conditioned on the assumption of unconfoundedness---that the treatments are assigned independently of the potential outcomes---we show how to check any additional modeling assumption. Our approach provides a foundation for diagnosing model-based causal inferences. </p>
+
+        </p>
+      </div>
+    </div>
+    <div id="footer">Web template design: <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.dcarter.co.uk">dcarter</a></div>
+  </div>
+</body>
+</html>

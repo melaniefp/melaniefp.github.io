@@ -1,0 +1,3 @@
+vim -p $(git grep -l foo)
+:bufdo %s/foo/foo_enh/ge | update
+

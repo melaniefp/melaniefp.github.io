@@ -6,7 +6,7 @@ html
   padding: 0;}
 
 body
-{ font: normal .90em arial, sans-serif;
+{ font: normal .80em arial, sans-serif;
   background: #F6F4F0 url(pattern.png);
   color: #47433F;}
 
@@ -97,7 +97,7 @@ ol li
 { width: 875px;
   position: relative;
   height: 193px;
-  background: url(black.png) repeat-x;}
+  background: url(green_logo.jpg) no-repeat;}
 
 #logo #logo_text 
 { position: absolute; 
@@ -143,8 +143,8 @@ ul#menu li a
   background: transparent;
   color: #FFF;
   text-transform: uppercase;
-  border-left: 1px solid #DCE31D;
-  border-right: 1px solid #7E8204;
+  border-left: 1px solid #FFCB99;
+  border-right: 1px solid #AE5A00;
   text-decoration: none;
   width: auto;} 
 
@@ -217,10 +217,10 @@ ul#menu li a:hover, ul#menu li.tab_selected a, ul#menu li.tab_selected a:hover
 { color: #F7C015;}
 
 .blue
-{ color: #05A4D1;}
+{ color: #33A994;}
 
 .orange
-{ color: #FF7A0F;}
+{ color: #FF9417;}
 
 .red
 { color: #C80500;}
